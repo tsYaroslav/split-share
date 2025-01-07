@@ -49,9 +49,9 @@ document
       resultElement.innerHTML = "<p>Вав ніхто нікому нічо не винен 🤝</p>"
     } else {
       if (ya.value > ta.value) {
-        resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(0)} має оплатити Ярик 😎💋</p>`
+        resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(0)} грн має оплатити Ярик 😎💋</p>`
       } else {
-        resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(0)} має оплатити Танюшка 😎😘</p>`
+        resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(0)} грн має оплатити Танюшка 😎😘</p>`
       }
     }
   })
