@@ -45,7 +45,7 @@ document
     const resultElement = document.getElementById("result")
     const difference = Math.abs(ya.value - ta.value)
 
-    if (difference === 0) {
+    if (difference === 0 || difference > -1 && difference < 1) {
       resultElement.innerHTML = "<p>Вав ніхто нікому нічо не винен 🤝</p>"
     } else {
       if (ya.value > ta.value) {
