@@ -51,7 +51,7 @@ document
       if (ya.value > ta.value) {
         resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(2)} має оплатити Ярик 😎💋</p>`
       } else {
-        resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(2)} має оплатити об'єкт Танюшка 😎😘</p>`
+        resultElement.innerHTML = `<p>Різницю в сумі ${difference.toFixed(2)} має оплатити Танюшка 😎😘</p>`
       }
     }
   })
