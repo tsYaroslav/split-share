@@ -99,6 +99,7 @@ button:hover {
 
 #result {
   margin: 20px 10px 10px 10px;
+  line-height: 22px;
 }
 
 @media (max-width: 768px) {
