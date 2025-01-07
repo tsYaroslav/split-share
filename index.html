@@ -1,0 +1,49 @@
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обчислення з Неоморфізмом</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h1>Обчислення</h1>
+        <form id="calcForm">
+          <div class="input-field">
+            <label for="inputNumber">Введіть число:</label>
+            <input type="number" id="inputNumber" placeholder="Введіть число" />
+          </div>
+          <div class="input-field">
+            <label for="input1">Перше значення:</label>
+            <input
+              type="number"
+              id="input1"
+              placeholder="Введіть перше значення"
+            />
+          </div>
+          <div class="input-field">
+            <label for="input2">Друге значення:</label>
+            <input
+              type="number"
+              id="input2"
+              placeholder="Введіть друге значення"
+            />
+          </div>
+          <div class="input-field">
+            <label for="ya">ya (65%):</label>
+            <input type="text" id="ya" disabled />
+          </div>
+          <div class="input-field">
+            <label for="ta">ta (35%):</label>
+            <input type="text" id="ta" disabled />
+          </div>
+          <button type="submit">Обчислити</button>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
